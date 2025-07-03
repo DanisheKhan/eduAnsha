@@ -8,13 +8,13 @@ function App() {
       {/* Header */}
       <header className="glass-effect sticky top-0 z-50 border-b border-blue-900/30 bg-gray-900/90 backdrop-blur-md shadow-lg">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
+          <div className="flex justify-between items-center py-3">
             <div className="flex items-center">
-              <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mr-3 animate-float shadow-lg shadow-blue-500/20">
-                <span className="text-xl font-bold">EA</span>
+              <div className="w-14 h-6 rounded-full flex items-center justify-center mr-3 animate-float shadow-lg shadow-blue-500/20">
+                <img src="/logo.png" alt="" />
               </div>
               <div>
-                <h1 className="text-2xl font-bold gradient-text">edu ansha</h1>
+                <h1 className="text-2xl font-bold gradient-text">eduansha</h1>
                 <p className="text-sm text-blue-300">Coaching Center</p>
               </div>
             </div>
@@ -68,11 +68,11 @@ function App() {
       <section id="home" className="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 h-screen flex flex-col justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMTEyMjQ0Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiMyMTQwODAiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=')] opacity-20"></div>
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 pt-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="inline-block animate-float">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 gradient-text">
-                edu ansha Coaching Center
+                eduansha Coaching Center
               </h1>
             </div>
             <p className="text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300">
@@ -108,9 +108,9 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="hover-card">
-              <h3 className="text-2xl font-bold mb-6 text-white">Welcome to <span className="gradient-text">edu ansha</span> Coaching Center</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Welcome to <span className="gradient-text">eduansha</span> Coaching Center</h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Located in the heart of Bhusawal, edu ansha Coaching Center has been a beacon of quality education,
+                Located in the heart of Bhusawal, eduansha Coaching Center has been a beacon of quality education,
                 providing comprehensive academic support to students from 1st to 12th standard. We believe in making
                 education accessible to all students, regardless of their linguistic background.
               </p>
@@ -259,7 +259,7 @@ function App() {
             <h2 className="text-5xl font-bold mt-2 mb-4 gradient-text">Why Choose Us</h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-8"></div>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Discover what makes edu ansha Coaching Center the preferred choice for students and parents
+              Discover what makes eduansha Coaching Center the preferred choice for students and parents
             </p>
           </div>
 
@@ -341,36 +341,36 @@ function App() {
             <div className="w-24 h-1.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-8"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Schedule */}
-            <div className="glass-effect rounded-xl hover-card p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
-              <h3 className="text-3xl font-bold mb-8 gradient-text text-center">Batch Timings</h3>
-              <div className="space-y-6">
-                <div className="flex justify-between items-center border-b border-blue-900/30 pb-4">
+            <div className="glass-effect rounded-xl hover-card p-6 sm:p-8 lg:p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
+              <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 gradient-text text-center">Batch Timings</h3>
+              <div className="space-y-4 sm:space-y-6">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center border-b border-blue-900/30 pb-4 space-y-3 sm:space-y-0">
                   <div className="flex items-center">
-                    <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
-                      <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <span className="text-gray-300 font-semibold text-lg">Days:</span>
+                    <span className="text-gray-300 font-semibold text-base sm:text-lg">Days:</span>
                   </div>
-                  <span className="text-white font-bold bg-blue-900/30 py-2 px-4 rounded-lg">Monday to Saturday</span>
+                  <span className="text-white font-bold bg-blue-900/30 py-2 px-3 sm:px-4 rounded-lg text-sm sm:text-base ml-11 sm:ml-0">Monday to Saturday</span>
                 </div>
-                <div className="flex justify-between items-center border-b border-blue-900/30 pb-4">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center border-b border-blue-900/30 pb-4 space-y-3 sm:space-y-0">
                   <div className="flex items-center">
-                    <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
-                      <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-8 h-8 sm:w-10 sm:h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <span className="text-gray-300 font-semibold text-lg">Timings:</span>
+                    <span className="text-gray-300 font-semibold text-base sm:text-lg">Timings:</span>
                   </div>
-                  <span className="text-white font-bold bg-blue-900/30 py-2 px-4 rounded-lg">7:00 AM to 9:00 PM</span>
+                  <span className="text-white font-bold bg-blue-900/30 py-2 px-3 sm:px-4 rounded-lg text-sm sm:text-base ml-11 sm:ml-0">7:00 AM to 9:00 PM</span>
                 </div>
-                <div className="mt-8">
-                  <div className="bg-gradient-to-r from-blue-600/50 to-purple-600/50 p-6 rounded-xl border border-blue-500/30">
-                    <p className="text-white text-center font-semibold">
+                <div className="mt-6 sm:mt-8">
+                  <div className="bg-gradient-to-r from-blue-600/50 to-purple-600/50 p-4 sm:p-6 rounded-xl border border-blue-500/30">
+                    <p className="text-white text-center font-semibold text-sm sm:text-base">
                       Flexible timing options available to suit your schedule
                     </p>
                   </div>
@@ -379,33 +379,99 @@ function App() {
             </div>
 
             {/* Faculty */}
-            <div className="glass-effect rounded-xl hover-card p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
-              <h3 className="text-3xl font-bold mb-8 gradient-text text-center">Faculty Information</h3>
-              <div className="text-center">
-                <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-blue-500/20 animate-float">
-                  <span className="text-3xl font-bold text-white">IK</span>
-                </div>
-                <h4 className="text-2xl font-bold text-white mb-2">Imran Khan</h4>
-                <div className="inline-block bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text font-semibold mb-6">
-                  Principal & Senior Faculty
-                </div>
-                <div className="space-y-4 text-lg">
-                  <div className="flex items-center justify-center space-x-2">
-                    <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                    </svg>
-                    <p className="text-gray-300"><span className="text-blue-300">Qualification:</span> M.Sc. Mathematics, B.Ed.</p>
+            <div className="glass-effect rounded-xl hover-card p-6 sm:p-8 lg:p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
+              <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 gradient-text text-center">Faculty Information</h3>
+
+              {/* Faculty Members Grid */}
+              <div className="space-y-8 lg:space-y-12">
+                {/* Principal - Imran Khan */}
+                <div className="text-center">
+                  <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-xl shadow-blue-500/20 animate-float">
+                    <span className="text-lg sm:text-xl font-bold text-white">IK</span>
                   </div>
-                  <div className="flex items-center justify-center space-x-2">
-                    <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    <p className="text-gray-300">
-                      <span className="text-blue-300">Contact:</span>
-                      <a href="tel:9975298134" className="text-blue-400 hover:text-blue-300 ml-1 hover:underline">
-                        9975298134
-                      </a>
-                    </p>
+                  <h4 className="text-lg sm:text-xl font-bold text-white mb-1">Imran Khan</h4>
+                  <div className="inline-block bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text font-semibold mb-3 sm:mb-4 text-xs sm:text-sm">
+                    Principal & Senior Faculty
+                  </div>
+                  <div className="space-y-2 sm:space-y-3 text-sm sm:text-base">
+                    <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                      </svg>
+                      <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
+                        <span className="text-blue-300">Qualification:</span> M.Sc. Mathematics, B.Ed.
+                      </p>
+                    </div>
+                    <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                      <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
+                        <span className="text-blue-300">Contact:</span>
+                        <a href="tel:9975298134" className="text-blue-400 hover:text-blue-300 ml-1 hover:underline">
+                          9975298134
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Divider */}
+                <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-blue-500/50 to-transparent mx-auto"></div>
+
+                {/* Assistant Teacher - Wasim Khan */}
+                <div className="text-center">
+                  <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-br from-green-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 shadow-xl shadow-green-500/20 animate-float">
+                    <span className="text-lg sm:text-xl font-bold text-white">WK</span>
+                  </div>
+                  <h4 className="text-lg sm:text-xl font-bold text-white mb-1">Wasim Khan Sir</h4>
+                  <div className="inline-block bg-gradient-to-r from-green-400 to-teal-400 text-transparent bg-clip-text font-semibold mb-3 sm:mb-4 text-xs sm:text-sm">
+                    Assistant Teacher & NEET Tutor
+                  </div>
+                  <div className="space-y-2 sm:space-y-3 text-sm sm:text-base">
+                    <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                      </svg>
+                      <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
+                        <span className="text-green-300">Qualification:</span> M.Sc., B.Ed.
+                      </p>
+                    </div>
+                    <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                      </svg>
+                      <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
+                        <span className="text-green-300">School:</span> Alfalah Urdu High School & Jr. College, Muktainagar
+                      </p>
+                    </div>
+                    <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                      <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
+                        <span className="text-green-300">Contact:</span>
+                        <a href="tel:9665656570" className="text-green-400 hover:text-green-300 ml-1 hover:underline">
+                          9665656570
+                        </a>
+                      </p>
+                    </div>
+                    <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2">
+                      <svg className="w-4 h-4 sm:w-5 sm:h-5 text-green-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                      <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
+                        <span className="text-green-300">Email:</span>
+                        <a href="mailto:eduansha@gmail.com" className="text-green-400 hover:text-green-300 ml-1 hover:underline">
+                          eduansha@gmail.com
+                        </a>
+                      </p>
+                    </div>
+                    <div className="bg-gradient-to-r from-green-600/20 to-teal-600/20 p-3 rounded-lg border border-green-500/20 mt-3">
+                      <p className="text-green-300 text-xs sm:text-sm font-medium">
+                        🎯 Specialized NEET Preparation Tutor
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -545,7 +611,7 @@ function App() {
                 <span className="text-2xl font-bold">EA</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold gradient-text">edu ansha</h3>
+                <h3 className="text-2xl font-bold gradient-text">eduansha</h3>
                 <p className="text-blue-300">Coaching Center</p>
               </div>
             </div>
@@ -573,7 +639,7 @@ function App() {
             </div>
 
             <p className="text-gray-400 text-center mb-6">
-              © {new Date().getFullYear()} edu ansha Coaching Center.<br />All rights reserved.
+              © {new Date().getFullYear()} eduansha Coaching Center.<br />All rights reserved.
             </p>
 
             <p className="text-blue-800 text-xs">
