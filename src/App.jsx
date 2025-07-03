@@ -11,7 +11,7 @@ function App() {
           <div className="flex justify-between items-center py-3">
             <div className="flex items-center">
               <div className="w-14 h-6 rounded-full flex items-center justify-center mr-3 animate-float shadow-lg shadow-blue-500/20">
-                <img src="/logo.png" alt="" />
+                <img src="/logo.webp" alt="" />
               </div>
               <div>
                 <h1 className="text-2xl font-bold gradient-text">eduansha</h1>
