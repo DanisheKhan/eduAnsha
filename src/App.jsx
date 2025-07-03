@@ -14,7 +14,7 @@ function App() {
                 <span className="text-xl font-bold">EA</span>
               </div>
               <div>
-                <h1 className="text-2xl font-bold gradient-text">eduAnsha</h1>
+                <h1 className="text-2xl font-bold gradient-text">edu ansha</h1>
                 <p className="text-sm text-blue-300">Coaching Center</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ function App() {
           <div className="max-w-4xl mx-auto">
             <div className="inline-block animate-float">
               <h1 className="text-5xl md:text-6xl font-bold mb-6 gradient-text">
-                eduAnsha Coaching Center
+                edu ansha Coaching Center
               </h1>
             </div>
             <p className="text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300">
@@ -108,9 +108,9 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="hover-card">
-              <h3 className="text-2xl font-bold mb-6 text-white">Welcome to <span className="gradient-text">eduAnsha</span> Coaching Center</h3>
+              <h3 className="text-2xl font-bold mb-6 text-white">Welcome to <span className="gradient-text">edu ansha</span> Coaching Center</h3>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Located in the heart of Bhusawal, eduAnsha Coaching Center has been a beacon of quality education,
+                Located in the heart of Bhusawal, edu ansha Coaching Center has been a beacon of quality education,
                 providing comprehensive academic support to students from 1st to 12th standard. We believe in making
                 education accessible to all students, regardless of their linguistic background.
               </p>
@@ -259,7 +259,7 @@ function App() {
             <h2 className="text-5xl font-bold mt-2 mb-4 gradient-text">Why Choose Us</h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-8"></div>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Discover what makes eduAnsha Coaching Center the preferred choice for students and parents
+              Discover what makes edu ansha Coaching Center the preferred choice for students and parents
             </p>
           </div>
 
@@ -343,38 +343,34 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-12">
             {/* Schedule */}
-            <div className="glass-effect rounded-xl hover-card p-6 sm:p-8 md:p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 gradient-text text-center">Batch Timings</h3>
+            <div className="glass-effect rounded-xl hover-card p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
+              <h3 className="text-3xl font-bold mb-8 gradient-text text-center">Batch Timings</h3>
               <div className="space-y-6">
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-blue-900/30 pb-5 gap-4">
-                  <div className="flex items-center w-full sm:w-auto">
-                    <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                <div className="flex justify-between items-center border-b border-blue-900/30 pb-4">
+                  <div className="flex items-center">
+                    <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
                       <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                     </div>
-                    <span className="text-gray-300 font-semibold text-base sm:text-lg">Days:</span>
+                    <span className="text-gray-300 font-semibold text-lg">Days:</span>
                   </div>
-                  <div className="text-white font-bold bg-blue-900/30 py-3 px-5 rounded-lg w-full sm:w-auto text-center">
-                    Monday to Saturday
-                  </div>
+                  <span className="text-white font-bold bg-blue-900/30 py-2 px-4 rounded-lg">Monday to Saturday</span>
                 </div>
-                <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-blue-900/30 pb-5 gap-4">
-                  <div className="flex items-center w-full sm:w-auto">
-                    <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
+                <div className="flex justify-between items-center border-b border-blue-900/30 pb-4">
+                  <div className="flex items-center">
+                    <div className="w-10 h-10 bg-blue-900/30 rounded-full flex items-center justify-center mr-3">
                       <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <span className="text-gray-300 font-semibold text-base sm:text-lg">Timings:</span>
+                    <span className="text-gray-300 font-semibold text-lg">Timings:</span>
                   </div>
-                  <div className="text-white font-bold bg-blue-900/30 py-3 px-5 rounded-lg w-full sm:w-auto text-center">
-                    7:00 AM to 9:00 PM
-                  </div>
+                  <span className="text-white font-bold bg-blue-900/30 py-2 px-4 rounded-lg">7:00 AM to 9:00 PM</span>
                 </div>
-                <div className="mt-6 sm:mt-8">
-                  <div className="bg-gradient-to-r from-blue-600/50 to-purple-600/50 p-5 sm:p-6 rounded-xl border border-blue-500/30">
-                    <p className="text-white text-center font-semibold text-sm sm:text-base">
+                <div className="mt-8">
+                  <div className="bg-gradient-to-r from-blue-600/50 to-purple-600/50 p-6 rounded-xl border border-blue-500/30">
+                    <p className="text-white text-center font-semibold">
                       Flexible timing options available to suit your schedule
                     </p>
                   </div>
@@ -383,36 +379,33 @@ function App() {
             </div>
 
             {/* Faculty */}
-            <div className="glass-effect rounded-xl hover-card p-6 sm:p-8 md:p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 gradient-text text-center">Faculty Information</h3>
+            <div className="glass-effect rounded-xl hover-card p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
+              <h3 className="text-3xl font-bold mb-8 gradient-text text-center">Faculty Information</h3>
               <div className="text-center">
-                <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-5 sm:mb-6 shadow-xl shadow-blue-500/20 animate-float">
-                  <span className="text-2xl sm:text-3xl font-bold text-white">IK</span>
+                <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-blue-500/20 animate-float">
+                  <span className="text-3xl font-bold text-white">IK</span>
                 </div>
-                <h4 className="text-xl sm:text-2xl font-bold text-white mb-2">Imran Khan</h4>
-                <div className="inline-block bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text font-semibold mb-6 text-base sm:text-lg">
+                <h4 className="text-2xl font-bold text-white mb-2">Imran Khan</h4>
+                <div className="inline-block bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text font-semibold mb-6">
                   Principal & Senior Faculty
                 </div>
-                <div className="space-y-5 text-base sm:text-lg">
-                  <div className="flex flex-col sm:flex-row items-center justify-center gap-2">
-                    <div className="flex items-center bg-blue-900/20 px-3 py-2 rounded-lg">
-                      <svg className="w-5 h-5 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                      </svg>
-                      <span className="text-blue-300 font-medium">Qualification:</span>
-                    </div>
-                    <p className="text-gray-300 bg-gray-800/50 px-4 py-2 rounded-lg">M.Sc. Mathematics, B.Ed.</p>
+                <div className="space-y-4 text-lg">
+                  <div className="flex items-center justify-center space-x-2">
+                    <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                    <p className="text-gray-300"><span className="text-blue-300">Qualification:</span> M.Sc. Mathematics, B.Ed.</p>
                   </div>
-                  <div className="flex flex-col sm:flex-row items-center justify-center gap-2">
-                    <div className="flex items-center bg-blue-900/20 px-3 py-2 rounded-lg">
-                      <svg className="w-5 h-5 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                      <span className="text-blue-300 font-medium">Contact:</span>
-                    </div>
-                    <a href="tel:9975298134" className="text-blue-400 hover:text-blue-300 hover:underline bg-gray-800/50 px-4 py-2 rounded-lg w-full sm:w-auto">
-                      9975298134
-                    </a>
+                  <div className="flex items-center justify-center space-x-2">
+                    <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <p className="text-gray-300">
+                      <span className="text-blue-300">Contact:</span>
+                      <a href="tel:9975298134" className="text-blue-400 hover:text-blue-300 ml-1 hover:underline">
+                        9975298134
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -552,7 +545,7 @@ function App() {
                 <span className="text-2xl font-bold">EA</span>
               </div>
               <div>
-                <h3 className="text-2xl font-bold gradient-text">eduAnsha</h3>
+                <h3 className="text-2xl font-bold gradient-text">edu ansha</h3>
                 <p className="text-blue-300">Coaching Center</p>
               </div>
             </div>
@@ -580,7 +573,7 @@ function App() {
             </div>
 
             <p className="text-gray-400 text-center mb-6">
-              © {new Date().getFullYear()} eduAnsha Coaching Center.<br />All rights reserved.
+              © {new Date().getFullYear()} edu ansha Coaching Center.<br />All rights reserved.
             </p>
 
             <p className="text-blue-800 text-xs">
