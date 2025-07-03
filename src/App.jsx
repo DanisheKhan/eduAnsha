@@ -75,8 +75,8 @@ function App() {
                 eduansha Coaching Center
               </h1>
             </div>
-            <p className="text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300">
-              "Education for All"
+            <p className="text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300 italic">
+              Education for All ... 
             </p>
             <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
               Empowering students from 1st to 12th standard with quality education in multiple languages.
@@ -616,7 +616,7 @@ function App() {
               </div>
             </div>
 
-            <p className="text-xl text-blue-300 mb-8 font-semibold">"Education for All"</p>
+            <p className="text-xl text-blue-300 mb-8 font-semibold">Education for All</p>
 
             <div className="w-24 h-1 bg-gradient-to-r from-blue-500/50 to-purple-500/50 rounded-full mx-auto mb-8"></div>
 
