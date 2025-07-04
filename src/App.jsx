@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import RotatingText from './components/RotatingText/Text'
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -75,9 +77,28 @@ function App() {
                 eduansha Coaching Center
               </h1>
             </div>
-            <p className="text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300 italic">
+            <span className='text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300 inline-block'>
+              <RotatingText
+                texts={['Education for All', 'Quality Learning', 'Expert Teachers', 'Future Leaders']}
+                mainClassName="px-3 sm:px-4 md:px-5 bg-gradient-to-r from-blue-600/70 to-purple-600/70 text-white overflow-hidden py-1 sm:py-1.5 md:py-2 justify-center rounded-lg inline-block  font-medium shadow-lg shadow-blue-500/20 hover:shadow-blue-500/30 transition-all duration-300"
+                staggerFrom={"last"}
+                initial={{ y: "100%" }}
+                animate={{ y: 0 }}
+                exit={{ y: "-120%" }}
+                staggerDuration={0.02}
+                splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                transition={{
+                  type: "spring",
+                  damping: 25,
+                  stiffness: 300,
+                  mass: 0.8
+                }}
+                rotationInterval={3000}
+              />
+            </span>
+            {/* <p className="text-2xl md:text-3xl mb-8 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-300 via-purple-300 to-blue-300 italic">
               Education for All ... 
-            </p>
+            </p> */}
             <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-3xl mx-auto">
               Empowering students from 1st to 12th standard with quality education in multiple languages.
               Your success is our commitment.
@@ -336,7 +357,7 @@ function App() {
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMTEyMjQ0Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiMyMTQwODAiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=')] opacity-20"></div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <span className="text-blue-400 font-semibold text-lg uppercase tracking-wider">Timings & Faculty</span>
+            <span className="text-blue-400 font-semibold text-lg uppercase tracking-wider">Timing & Faculty</span>
             <h2 className="text-5xl font-bold mt-2 mb-4 gradient-text">Meet Our Team</h2>
             <div className="w-24 h-1.5 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-8"></div>
           </div>
@@ -344,7 +365,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Schedule */}
             <div className="glass-effect rounded-xl hover-card p-6 sm:p-8 lg:p-10 border border-blue-500/20 shadow-lg shadow-blue-500/5">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 gradient-text text-center">Batch Timings</h3>
+              <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 gradient-text text-center">Batch Timing</h3>
               <div className="space-y-4 sm:space-y-6">
                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center border-b border-blue-900/30 pb-4 space-y-3 sm:space-y-0">
                   <div className="flex items-center">
@@ -364,7 +385,7 @@ function App() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                     </div>
-                    <span className="text-gray-300 font-semibold text-base sm:text-lg">Timings:</span>
+                    <span className="text-gray-300 font-semibold text-base sm:text-lg">Timing:</span>
                   </div>
                   <span className="text-white font-bold bg-blue-900/30 py-2 px-3 sm:px-4 rounded-lg text-sm sm:text-base ml-11 sm:ml-0">7:00 AM to 9:00 PM</span>
                 </div>
@@ -451,8 +472,8 @@ function App() {
                       </svg>
                       <p className="text-gray-300 text-xs sm:text-sm text-center sm:text-left">
                         <span className="text-green-300">Contact:</span>
-                        <a href="tel:9665656570" className="text-green-400 hover:text-green-300 ml-1 hover:underline">
-                          9665656570
+                        <a href="tel:9766565670" className="text-green-400 hover:text-green-300 ml-1 hover:underline">
+                          9766565670
                         </a>
                       </p>
                     </div>
@@ -608,7 +629,7 @@ function App() {
           <div className="flex flex-col items-center">
             <div className="flex items-center mb-6">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mr-4 shadow-lg shadow-blue-500/20 animate-float">
-                <span className="text-2xl font-bold">EA</span>
+                <img src="/logo.webp" alt="" />
               </div>
               <div>
                 <h3 className="text-2xl font-bold gradient-text">eduansha</h3>
