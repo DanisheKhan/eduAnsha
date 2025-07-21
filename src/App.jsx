@@ -67,7 +67,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 h-screen flex flex-col justify-center relative overflow-hidden">
+      <section id="home" className="bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 h-[100svh] flex flex-col justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjMTEyMjQ0Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDVMNSAwWk02IDRMNCA2Wk0tMSAxTDEgLTFaIiBzdHJva2U9IiMyMTQwODAiIHN0cm9rZS13aWR0aD0iMSI+PC9wYXRoPgo8L3N2Zz4=')] opacity-20"></div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
